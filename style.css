@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logoExample {
+  color: gray;
+  width: 50px;
+  height: 50px;
+}
+
+/* container */
+.mainContainer {
+}
+
+.classBR {
+  display: grid;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bannerAds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(207, 207, 207);
+  width: auto;
+  height: 500px;
+  padding: 20px;
+}
+
+.btnText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: x-large;
+}
+
+.bannerBtn {
+  display: flex;
+  gap: 35px;
+  margin-top: -80px;
+}
+
+.btnCenter {
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 12px;
+  font-size: large;
+}
+/* Shop banner */
+.shopBanner1,
+.shopBanner2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.sbBorder {
+  width: 1090px;
+  height: 240px;
+  background-color: gray;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bannerContent {
+  display: flex;
+  align-items: center;
+}
+.bannerImg {
+  display: flex;
+  margin-left: 700px;
+}
+.imgTest {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.bannerText {
+  text-align: center;
+}
+.bannerBBTN {
+}
+
+/* Products */
+
+.productContainer {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+}
+.prodBox {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.prodEx {
+  height: 400px;
+  background-color: gray;
+  width: 350px;
+}
+
+.prodImg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.prodImg:hover {
+  transform: scale(1.1);
+}
+
+/* footer */
+
+.footerContainer {
+  background-color: gray;
+  padding: 20px 0;
+  margin-top: 25px;
+  height: 200px;
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fColAbout,
+.fColTerms,
+.fColInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fh4About,
+.fh4Term,
+.fh4Info {
+}

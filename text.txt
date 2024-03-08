@@ -1,0 +1,15 @@
+
+    <?php
+    echo "<p>A PHP text message using echo </p>";
+
+    $txt = 1;
+    var_dump($txt) . "</br>";
+
+
+
+
+    echo "The current version of PHP is " . phpversion() . "</br>";
+    // Sẽ xuất ra: The current version of PHP is 8.2.12. ở trên màn hình
+
+
+    ?>
